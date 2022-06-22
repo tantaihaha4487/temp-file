@@ -46,25 +46,30 @@ me = [
     "  \:\__\     ",
     "   \/__/     "]
 
-U = ["      ___"
-     "     /\__\     ",
-     "    /:/  /     ",
-     "   /:/  /      ",
-     "  /:/  /  ___  ",
-     " /:/__/  /\__\ ",
-     " \:\  \ /:/  /",
-     "  \:\  /:/  / ",
-     "   \:\/:/  /  ",
-     "    \::/  /   ",
-     "     \/__/    "]
+U = [
+    "     /\__\     ",
+    "    /:/  /     ",
+    "   /:/  /      ",
+    "  /:/  /  ___  ",
+    " /:/__/  /\__\ ",
+    " \:\  \ /:/  /",
+    "  \:\  /:/  / ",
+    "   \:\/:/  /  ",
+    "    \::/  /   ",
+    "     \/__/    "]
 
 while True:
     for i in me:
-        print(i + "\n\n")
-    time.sleep(0.5)
+        print(i)
+        time.sleep(0.5)
+    print("\n\n")
+
     for i in heart1:
-        print(i + "\n\n")
-    time.sleep(0.5)
+        print(i)
+        time.sleep(0.5)
+    print("\n\n")
+
     for i in U:
-        print(i + "\n\n")
-    time.sleep(0.5)
+        print(i)
+        time.sleep(0.5)
+    print("\n\n")
