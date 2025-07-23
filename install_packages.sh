@@ -34,11 +34,11 @@ fi
 
 # Update system before installing new packages
 echo "Updating system..."
-yay -Syu --noconfirm
+pacman -Syu --noconfirm
 
 # Install Pacman/AUR packages
 echo "Installing core packages..."
-yay -S --noconfirm jdk21-openjdk nodejs npm htop btop fastfetch flatpak timeshift syncthing tailscale vim neovim intellij-idea-community-edition discord nvidia-lts nvidia-settings nvidia-utils obs-studio ethtool
+pacman -S --noconfirm jdk21-openjdk nodejs npm htop btop fastfetch flatpak timeshift syncthing tailscale vim neovim intellij-idea-community-edition discord nvidia-lts nvidia-settings nvidia-utils obs-studio ethtool
 
 # Add Flathub remote and install Flatpak applications
 echo "Adding Flathub remote and installing Flatpak applications..."
